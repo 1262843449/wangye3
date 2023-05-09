@@ -1,0 +1,651 @@
+
+$box_width: 1200px;
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#box {
+    width: $box_width;
+    height: 100%;
+  
+    margin: auto;
+
+    //盒子导航
+    .box_nav {
+        //声明导航高度变量
+        $box_nav_header_height: 70px;
+        width: $box_width;
+        height: $box_nav_header_height;
+       
+        display: flex;
+
+        #box_nav_header {
+            height: $box_nav_header_height;
+            width: $box_width;
+            display: flex;
+            justify-content: space-between;
+
+            #box_nav_header_left {
+                width: 180px;
+                height: $box_nav_header_height;
+               
+
+                img {
+                    width: 80%;
+                    height: 80%;
+                    margin-top: 5px;
+                }
+            }
+
+            #box_nav_header_center {
+                width: 650px;
+                height: $box_nav_header_height;
+               
+
+                ul {
+                    width: 650px;
+                    height: 50px;
+                    margin-top: 10px;
+                  
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+
+                    li {
+                        height: 50px;
+                        line-height: 50px;
+                        text-align: center;
+                    }
+                }
+            }
+                        #box_nav_header_right {
+                            width: 290px;
+                            height: $box_nav_header_height;
+                            display: flex;
+                            align-items: center;
+                            position: relative;
+            
+                            input {
+                                width: 280px;
+                                height: 35px;
+                                border: 1px #eaeaee solid;
+                                text-indent: 1em;
+                                border-radius: 3px;
+                                margin-left: 9px;
+                            }
+            
+                button {
+                    width: 67px;
+                    height: 34px;
+                    background-color: #18ae66;
+                    border: none;
+                    color: white;
+                    position: absolute;
+                    right: 2px;
+                    top: 18px;
+                    border-radius: 4px;
+                }
+            }
+            }
+            }
+            //轮播
+            .swiper-wrapper{
+                
+                
+                
+                .swiper {
+                        width: 1200px;
+                        height: 400px;
+                    }
+                
+                    .swiper-slide {
+                        text-align: center;
+                        font-size: 18px;
+                        background: #fff;
+                
+                        /* Center slide text vertically */
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: -webkit-flex;
+                        display: flex;
+                        -webkit-box-pack: center;
+                        -ms-flex-pack: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        -webkit-box-align: center;
+                        -ms-flex-align: center;
+                        -webkit-align-items: center;
+                        align-items: center;
+                    }
+                
+                    .swiper-slide img {
+                        display: block;
+                        width: 1200px;
+                            height: 400px;
+                        
+                    }
+
+            }
+                                    //盒子导航
+                        .a {
+                                        //声明导航高度变量
+                        $box_nav_header_height: 70px;
+                                        width: $box_width;
+                                height: $box_nav_header_height;
+                                        
+                                        display: flex;
+                                ul {
+                                            width: 1200px;
+                                            height: 50px;
+                                            margin-top: 10px;
+                                        
+                                            // margin: 0;
+                                            
+                                            list-style: none;
+                                            display: flex;
+                                            justify-content:space-between;
+                                    
+                                            li {
+                                            width: 180px;
+                                                height: 72px;
+                                                line-height: 72px;
+                                                background: #FFFFFF;
+                                                box-shadow: 0 2px 8px 0 rgba(2, 18, 40, 0.06);
+                                                border-radius: 4px;
+                                                text-align: center;
+                                            }
+                                        }
+                                    }
+                                    .b3{
+                                        margin-top:200px;
+                                            $box_nav_header_height: 70px;
+                                                width: 1200px;
+                                                height:670px ;
+                                         
+                                                display: flex;
+                                                flex-wrap:nowrap;
+                                                justify-content:space-between;
+
+                                    .zuo3{
+                                   
+                                        width: 880px;
+                                        height:670px;
+                                        span {
+                                            position: relative;
+                                                top: -20px;
+                                                left: 824px;
+                                                color: gray;
+                                                font-size: 14px;
+                                            }
+                                        #scrolldiv {
+                                      
+                                                
+                                                height: 20px;
+                                                overflow: hidden;
+                                        
+                                                ul {
+                                                    list-style: none;
+                                                }
+                                        
+                                                li {
+                                                    height: 60px;
+                                                }
+                                            }
+                                        .te{
+                                                font-size: 23px;
+                                              
+                                                width: 880px;
+                                                height: 42px;
+                                                border-bottom: 1px solid black;
+                                                margin-bottom: 20px;
+                                            }
+                                            #con_box_five_left_map{
+                                                width: 880px;
+                                                    height: 558px;
+                                            }
+                                    }
+                        .you3 {
+                                                                                   
+                                    width: 315px;
+                                    height: 290px;
+
+                                    #x {
+                                        width: 100%;
+                                        height: 42px;
+                                        border-bottom: 1px solid gray;
+                                        font-size: 25px;
+                                        text-indent: 18px;
+                                        position: relative;
+
+                                        span {
+                                            display: block;
+                                            width: 8px;
+                                            height: 25px;
+                                            background-color: #18ae66;
+                                            position: absolute;
+                                            top: 5px;
+                                            border-radius: 8px;
+                                        }
+                                    }
+
+                                    #xh {
+                                        width: 100%;
+                                        height: 165px;
+
+                                        ul {
+                                            margin-top: 20px;
+                                            list-style: none;
+                                            width: 100%;
+                                            height: 180px;
+                                            font-size: 18px;
+
+                                            li {
+                                                width: 100%;
+                                                height: 35px;
+
+                                                span {
+                                                    color: #18ae66;
+                                                    font-weight: bold;
+                                                    margin-left: 30px;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    #xhh {
+                                        width: 100%;
+                                        height: 275px;
+                                        margin-top: 30px;
+                                        box-shadow: 0 2px 8px 0 rgba(2, 18, 40, 0.06);
+
+                                        #xhhmua {
+                                            width: 100%;
+                                            height: 50px;
+                                            border-bottom: 1px solid gray;
+                                            font-size: 25px;
+                                            text-indent: 18px;
+                                            position: relative;
+
+                                            span {
+                                                display: block;
+                                                width: 8px;
+                                                height: 25px;
+                                                background-color: #18ae66;
+                                                position: absolute;
+                                                top: 5px;
+                                                border-radius: 8px;
+                                            }
+                                        }
+
+                                        #ai{
+                                            width: 100%;
+                                            height: 205px;
+                                            margin-top: 20px;
+                                            display: flex;
+                                            flex-wrap: wrap;
+
+                                            div {
+                                                width: 50%;
+                                                height: 90px;
+                                                text-align: center;
+                                                font-size: 13px;
+
+                                                img {
+                                                    width: 50%;
+                                                }
+                                            }
+                                        }
+                                    }
+
+                                    button {
+                                        width: 100%;
+                                        height: 50px;
+                                        background-color: #18ae66;
+                                        border-radius: 7px;
+                                        color: white;
+                                        border: none;
+                                        font-size: 20px;
+                                        margin-top: 20px;
+                                    }
+                                }
+}
+                    .b2 {
+                        margin-top: 50px;
+                        $box_nav_header_height: 70px;
+                        width: $box_width;
+                        height: 374px;
+                      
+                        display: flex;
+                        flex-wrap: nowrap;
+                        justify-content: space-between;
+
+                        .zuo2 {
+                       
+                            width: 486px;
+                            height: 450px;
+                          .te{
+                            font-size:23px;
+                         
+                                width: 486px;
+                                height: 42px;
+                                border-bottom: 1px solid black;
+                                margin-bottom: 20px;
+                          }
+                        .te2 {
+                      
+                            width: 486px;
+                            height: 100px;
+                         
+                        //display: flex;
+                        flex-direction:column-reverse;
+                        ul {
+                        
+                        
+                                margin: 0;
+                                padding: 0;
+                        
+                                list-style: none;
+                              /*   display: flex;
+                            flex-direction: column-reverse; */
+                        
+                                li {
+                                font-size: 16px;
+                                    color: #2E2E30;
+                                    line-height: 16px;
+                                    text-align: left;
+                                    padding-left: 12px;
+                                    position: relative;
+                                    margin-top: 20px;
+                                  
+                                }
+                            }
+                        }
+                            .swiper-pagination {
+                              
+                                position: absolute;
+                                top: 300px;
+                                left: 192px;
+                                text-align: center;
+                                transition: .3s opacity;
+                                transform: translate3d(0, 0, 0);
+                                z-index: 10;
+
+                            }
+
+                            .swiper-wrapper {
+
+
+
+                                .swiper {
+                                    width: 486px;
+                                    height: 324px;
+                                }
+
+                                .swiper-slide {
+                                    text-align: center;
+                                    font-size: 18px;
+                                    background: #fff;
+
+                                    /* Center slide text vertically */
+                                    display: -webkit-box;
+                                    display: -ms-flexbox;
+                                    display: -webkit-flex;
+                                    display: flex;
+                                    -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                    -webkit-justify-content: center;
+                                    justify-content: center;
+                                    -webkit-box-align: center;
+                                    -ms-flex-align: center;
+                                    -webkit-align-items: center;
+                                    align-items: center;
+                                    flex-wrap: wrap;
+
+                                    p {
+                                        height: 50px;
+                                        line-height: 50px;
+                                        margin-right: 425px;
+                                    }
+
+                                }
+
+                                .swiper-slide img {
+                                    display: block;
+                                    width: 486px;
+                                    height: 324px;
+                                }
+
+                            }
+                        }
+
+                        .you2 {
+                       
+                            width: 690px;
+                            height: 374px;
+
+                            //盒子导航
+                            .a2 {
+                                //声明导航高度变量
+                                border-bottom: 1px solid black;
+                                width: 690px;
+                                height: 42px;
+
+                                display: flex;
+
+                                ul {
+
+                                    width: 736px;
+                                    height: 50px;
+                                    margin-top: 10px;
+margin-left:-33px;
+                                    // margin: 0;
+
+                                    list-style: none;
+                                    display: flex;
+                                    justify-content: space-between;
+
+                                    li {
+                                        margin-top: -27px;
+                                        width: 200px;
+                                        height: 72px;
+                                        line-height: 72px;
+                                        font-size: 23px;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+
+                            .wuyu {
+                                border-bottom: 1px solid black;
+                               
+                                width: 690px;
+                                height: 104px;
+                            }
+
+                            .a3 {
+                                li {
+                                    margin-top: 15px;
+                                    margin-left: 35px;
+                                    font-size: 20px;
+                                }
+                            }
+                        }
+                    }
+                                    .b{
+                                    margin-top:50px;
+                                        $box_nav_header_height: 70px;
+                                            width: $box_width;
+                                            height:374px ;
+                                        background-color: powderblue;
+                                            display: flex;
+                                            flex-wrap:nowrap;
+                                            justify-content:space-between;
+
+                                .zuo{
+                           
+                                    width: 486px;
+                                    height:374px;
+                                    .swiper-pagination {
+                                            position: absolute;
+                                        top: 300px;
+                                            left: 192px;
+                                            text-align: center;
+                                            transition: .3s opacity;
+                                            transform: translate3d(0, 0, 0);
+                                            z-index: 10;
+                                    
+                                        }
+                                .swiper-wrapper {
+                                
+                               
+                                
+                                        .swiper {
+                                            width: 486px;
+                                            height: 324px;
+                                        }
+                                
+                                        .swiper-slide {
+                                            text-align: center;
+                                            font-size: 18px;
+                                            background: #fff;
+                                
+                                            /* Center slide text vertically */
+                                            display: -webkit-box;
+                                            display: -ms-flexbox;
+                                            display: -webkit-flex;
+                                            display: flex;
+                                            -webkit-box-pack: center;
+                                            -ms-flex-pack: center;
+                                            -webkit-justify-content: center;
+                                            justify-content: center;
+                                            -webkit-box-align: center;
+                                            -ms-flex-align: center;
+                                            -webkit-align-items: center;
+                                            align-items: center;
+                                            flex-wrap:wrap;
+                                         p{
+                                            height: 50px;
+                                            line-height: 50px;
+                                            margin-right:425px;
+                                         }
+                                           
+                                        }
+                                           
+                                        .swiper-slide img {
+                                            display: block;
+                                            width: 486px;
+                                                height: 324px;
+                                        }
+                                
+                                    }
+                                }
+                                    .you{
+                                 
+                                    width: 690px;
+                                    height: 374px;
+                                    //盒子导航
+                                        .a2{
+                                            //声明导航高度变量
+                                            border-bottom: 1px solid black;
+                                            width: 690px;
+                                            height: 42px;
+                                    
+                                            display: flex;
+                                    
+                                            ul{
+                                             
+                                                width: 500px;
+                                                height: 50px;
+                                                margin-top: 10px;
+                                    
+                                                // margin: 0;
+                                    
+                                                list-style: none;
+                                                display: flex;
+                                                justify-content: space-between;
+                                    
+                                                li{
+   margin-top:-27px;
+                                                    width: 180px;
+                                                    height: 72px;
+                                                    line-height: 72px;
+                                                   font-size: 23px;
+                                                    text-align: center;
+                                                }
+                                            }
+                                        }
+                                        .wuyu{
+                                            border-bottom: 1px solid black;
+                                           
+                                            width:690px;
+                                            height:104px;
+                                        }
+                                        .a3{
+                                            li{
+                                                margin-top:15px;
+                                                margin-left:35px;
+                                                font-size: 20px;
+                                            }
+                                        }
+                                }
+                                        }
+                        }
+                #footer {
+                    width: 100%;
+                        height: 100px;
+                    margin-top: 20px;
+                    
+                    background-color: #f6f6fa;
+
+                    #footer_box {
+                        width: 1200px;
+                        height: 100px;
+                        margin: auto;
+
+                        #footer_top {
+                           
+                            height: 60px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            border-bottom: 1px solid #eaeaee;
+                            align-content: center;
+
+                            ul {
+                                
+                                padding-top: 20px;
+                                width: 600px;
+                                list-style: none;
+                                display: flex;
+
+                                li {
+                                    font-size: 16px;
+                                    height: 60px;
+
+                                    span {
+                                        display: block;
+                                        padding: 0 20px;
+                                        border-left: 1px solid gray;
+                                    }
+                                }
+
+                                li:not(li:nth-child(1)) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+
+                        #footer_bottom {
+                            height: 35px;
+                            line-height: 35px;
+                            font-size: 12px;
+                            color: gray;
+                            width: 605px;
+                            margin: auto;
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                    }
+                }
